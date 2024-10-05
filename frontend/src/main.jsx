@@ -19,7 +19,7 @@ import Privacy from './components/Client/Privacy.jsx'
 import Help from './components/Client/Help.jsx'
 import Order from './components/Client/Order.jsx'
 import Ourmenu from './components/Client/Ourmenu.jsx'
-import Faqs from './components/Faqs.jsx'
+// import Faqs from './components/Faqs.jsx'
 import Testimonial from './components/Client/Testimonial.jsx'
 import Booking from './components/Client/Booking.jsx'
 import Catering from './components/Client/Catering.jsx'
@@ -46,7 +46,7 @@ const router=createBrowserRouter(
     <Route path='/contact' element={<Help/>}/>
     <Route path='/order' element={<Order/>}/>
     <Route path='/ourmenu' element={<Ourmenu/>}/>
-    <Route path='/faqs' element={<Faqs/>}/>
+    {/* <Route path='/faqs' element={<Faqs/>}/> */}
     <Route path='/testimonial' element={<Testimonial/>}/>
     <Route path='/booking' element={<Booking/>}/>
     <Route path='/catering' element={<Catering/>}/>

@@ -324,7 +324,7 @@ const Home = () => {
 
   {/* View More Menu Button */}
   <div className="flex justify-center items-center h-12  mt-[-10px]">
-    <Link to='/order' className="bg-yellow-500 text-black font-bold px-2 py-2  rounded-lg transition duration-300 ease-in-out hover:bg-yellow-600 hover:scale-105">
+    <Link to='/' className="bg-yellow-500 text-black font-bold px-2 py-2  rounded-lg transition duration-300 ease-in-out hover:bg-yellow-600 hover:scale-105">
       View More Menu
     </Link>
   </div>
@@ -474,7 +474,7 @@ const Home = () => {
           {/* Image Section (Right Side) */}
           <div className="w-full md:w-1/2 flex justify-center mt-10 md:mt-0">
   <img
-    src='https://files.oaiusercontent.com/file-yrmCH1ejleWfJBflHly0T6Y2?se=2024-10-04T10%3A55%3A22Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D273bb471-de02-4ffe-a66e-59304ea555c4.webp&sig=eThaSBRN8qE2GNJ4dKEhYuvH4iJQzYrnfi4uXDC8ioY%3D'
+    src='https://c1.wallpaperflare.com/preview/786/370/483/buffet-indian-food-spices.jpg'
     alt="Mobile FAQ"
     className="w-96 object-contain transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
   />

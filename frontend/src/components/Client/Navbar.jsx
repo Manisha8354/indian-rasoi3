@@ -98,7 +98,7 @@ export default function Navbar() {
     
 
     <div className="hidden lg:flex space-x-4 ml-[280px]">
-      <Link to='/order'>
+      <Link to='/'>
       <button className="border border-yellow-600 bg-black text-white px-2 py-1 rounded-lg font-semibold transition-transform transform hover:bg-yellow-600 hover:scale-105 duration-300">
         Order Now
       </button>
@@ -139,7 +139,7 @@ export default function Navbar() {
         <li><Link to="/blog" className="hover:text-white" onClick={() => setIsMenuOpen(false)}>Blogs</Link></li>
         <div className="space-y-4">
 
-          <Link to='/order'>
+          <Link to='/'>
           <button className="bg-black text-white w-full py-2 rounded-lg font-semibold hover:bg-gray-300 transition-colors duration-300" onClick={() => setIsMenuOpen(false)}>Order Now</button>
           </Link>
         </div>
