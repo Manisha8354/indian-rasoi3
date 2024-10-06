@@ -85,8 +85,8 @@ export default function Navbar() {
       </Link>
     </li>
     <li className="relative group">
-      <Link to='/blog' onClick={toggleContact} className="hover:text-yellow-600 transition-colors duration-300 focus:outline-none">
-        Our Blogs
+      <Link to='/location' onClick={toggleContact} className="hover:text-yellow-600 transition-colors duration-300 focus:outline-none">
+        Location
       </Link>
     </li>
   </ul>
@@ -136,7 +136,7 @@ export default function Navbar() {
         <li><Link to="/ourmenu" className="hover:text-white" onClick={() => setIsMenuOpen(false)}>Our Menu</Link></li>
         <li><Link to="/location" className="hover:text-white" onClick={() => setIsMenuOpen(false)}>Location</Link></li>
         <li><Link to="/contact" className="hover:text-white" onClick={() => setIsMenuOpen(false)}>Contact Us</Link></li>
-        <li><Link to="/blog" className="hover:text-white" onClick={() => setIsMenuOpen(false)}>Blogs</Link></li>
+       
         <div className="space-y-4">
 
           <Link to='/'>

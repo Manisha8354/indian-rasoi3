@@ -7,9 +7,10 @@ import '@fortawesome/fontawesome-free/css/all.min.css'; // Font Awesome for arro
 
 
 import { motion } from 'framer-motion';
-import Blog from './Blog';
+// import Blog from './Blog';
 import About from './About';
 import { Link } from 'react-router-dom';
+import Testimonials from './Testimonial';
 
 // testimonial
 const testimonials = [
@@ -235,6 +236,11 @@ const Home = () => {
       <p className="gsap-p text-xl md:text-2xl pl-32 md:pl-0 lg:text-3xl lg:ml-44 hover:text-yellow-400">
         {slides[currentIndex].content}
       </p>
+      <Link to='/'>
+      <button className="border border-yellow-600 ml-24 mt-6 bg-black text-white px-2 py-1 rounded-lg font-semibold transition-transform transform hover:bg-yellow-600 hover:scale-105 duration-300">
+        Order Now
+      </button>
+      </Link>
     </div>
 
     {/* Image Section */}
@@ -411,7 +417,7 @@ const Home = () => {
 
 
 
-<Blog/>
+
 
 {/* faqs */}
 
@@ -481,8 +487,8 @@ const Home = () => {
 </div>
 
         </div>
-      </div>   
-{/* testimonial  */}
+      </div>
+      <Testimonials/>
 
 
 

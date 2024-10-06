@@ -13,7 +13,7 @@ export default function Footer() {
           <li className="mb-2 hover:text-yellow-500"><a href="/about">About Us</a></li>
           <li className="mb-2 hover:text-yellow-500"><a href="/contact">Contact Us</a></li>
           <li className="mb-2 hover:text-yellow-500"><a href="/location">Location</a></li>
-          <li className="mb-2 hover:text-yellow-500"><a href="/blog">Blog</a></li>
+          {/* <li className="mb-2 hover:text-yellow-500"><a href="/blog">Blog</a></li> */}
         </ul>
       </div>
 

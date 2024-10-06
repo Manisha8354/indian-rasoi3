@@ -12,7 +12,7 @@ import ChineseFood from './components/Client/ChineseFood.jsx'
 import Contact from './components/Client/Contact.jsx'
 import MenuPage from './components/Client/MenuPage.jsx'
 // import Viewmoremenu from './components/Client/Viewmoremenu.jsx'
-import Blog from './components/Client/Blog.jsx'
+// import Blog from './components/Client/Blog.jsx'
 import ViewmoreBlog from './components/Client/ViewmoreBlog.jsx'
 import Terms from './components/Client/Terms.jsx'
 import Privacy from './components/Client/Privacy.jsx'
@@ -39,7 +39,7 @@ const router=createBrowserRouter(
     <Route path='/contact' element={<Contact/>}/>
     <Route path='/menupage' element={<MenuPage/>}/>
     {/* <Route path='/viewmoremenu' element={<Viewmoremenu/>}/> */}
-    <Route path='/blog' element={<Blog/>}/>
+    {/* <Route path='/blog' element={<Blog/>}/> */}
     <Route path='/viewmoreblog' element={<ViewmoreBlog/>}/>
     <Route path='/term' element={<Terms/>}/>
     <Route path='/privacy' element={<Privacy/>}/>
