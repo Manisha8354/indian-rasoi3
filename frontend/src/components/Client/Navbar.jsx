@@ -136,7 +136,7 @@ export default function Navbar() {
         <li><Link to="/ourmenu" className="hover:text-white" onClick={() => setIsMenuOpen(false)}>Our Menu</Link></li>
         <li><Link to="/location" className="hover:text-white" onClick={() => setIsMenuOpen(false)}>Location</Link></li>
         <li><Link to="/contact" className="hover:text-white" onClick={() => setIsMenuOpen(false)}>Contact Us</Link></li>
-       
+        <li><Link to="/catering" className="hover:text-white" onClick={() => setIsMenuOpen(false)}>Catering Services</Link></li>
         <div className="space-y-4">
 
           <Link to='/'>
@@ -144,9 +144,7 @@ export default function Navbar() {
           </Link>
         </div>
         <div className="space-y-4">
-          <Link to='/catering'>
-          <button className="bg-black text-white w-full py-2 rounded-lg font-semibold hover:bg-gray-700 transition-colors duration-300" onClick={() => setIsMenuOpen(false)}>Catering services</button>
-          </Link>
+         
         </div>
       </ul>
     </div>
